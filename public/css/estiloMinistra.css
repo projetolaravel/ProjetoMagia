@@ -1,0 +1,41 @@
+body#telaMinistra{
+    background-image: url("../imagens/imgMinistra.jpg");
+    background-size: 100%;
+}
+
+nav#menu ul{
+    font-size: 23px;
+    list-style: none;
+    position: static;
+    top: 0px;
+    left: 600px;
+    padding-top: 150px;
+}
+
+nav#menu li{
+	display: inline-block;
+	padding: 10px;
+	margin: 2px;
+	transition: background-colo 1s;
+}
+
+nav#menu a{
+    color: yellow;
+    text-shadow: 4px 4px 8px rgb(255, 0, 221);
+    text-decoration: none; 
+    margin-left: 30px;
+    
+}
+
+nav#menu a:hover{
+    color: white;
+	text-decoration: none;
+}
+
+nav#menu h1{
+    color: red;
+    text-shadow: 4px -4px 8px black;
+    font-size: 40px;
+    text-indent: 20px;
+    font-weight: bold;
+}

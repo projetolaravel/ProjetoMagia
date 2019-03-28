@@ -1,0 +1,37 @@
+body#telaCoordenador{
+    background-image: url("../imagens/imgCoordenador.jpg");
+    background-size: 100%;
+}
+
+nav#menu ul{
+    font-size: 20px;
+    list-style: none;
+    position: static;
+    top: 0px;
+    left: 600px;
+}
+
+nav#menu li{
+	display: inline-block;
+	background-color: coral rgba(0, 0, 0, .8);
+	padding: 10px;
+	margin: 2px;
+	transition: background-colo 1s;
+}
+
+nav#menu a{
+	color:gold;
+    text-decoration: none;
+    text-shadow: 2px 2px 20px white;
+}
+
+nav#menu a:hover{
+    color: white;
+	text-decoration: none;
+}
+
+nav#menu h1{
+    font-family: arial;
+    text-shadow: 2px 2px rgb(102, 102, 4);
+    color: orange;
+}

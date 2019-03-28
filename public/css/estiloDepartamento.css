@@ -1,0 +1,35 @@
+
+
+body#departamento{
+    background-image: url("../imagens/imgCadastro.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#campos{
+    margin-top: 10px;
+    padding-top: 150px;
+    position: static;
+    left: 420px;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+p{
+    padding-left: 470px;
+    font-size: 30px;
+    color: gold;
+    text-shadow: 4px -4px 8px red;
+    font-weight: bold;
+    white-space: pre-wrap;
+}
+
+#botao{
+    margin-top: 10px;
+}
+
+
+
+

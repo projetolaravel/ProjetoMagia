@@ -1,0 +1,32 @@
+
+.login{
+    background-image: url('../imagens/imgLoginCoordenador.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+
+.log{
+    background-color: rgba(0, 0, 0,.0);
+    position: absolute;
+    padding: 10px;
+    left: 425px;
+    color: gold;
+    text-shadow: 3px 3px 3px black;
+    font-size: 16pt;
+    padding-top: 160px;
+    font: arial;
+}
+
+
+#link{
+    position: relative;
+    text-decoration: none;
+    color: gold;
+    top:10px;
+    left: 135px;
+}
+#link:hover{
+    color: lightblue;
+}

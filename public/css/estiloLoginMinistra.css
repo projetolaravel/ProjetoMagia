@@ -1,0 +1,32 @@
+.fundo{
+    background-image: url('../imagens/imgLoginMinistra.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    overflow: hidden;
+    
+}
+
+.campos{
+    margin-top: 10px;
+    position: absolute;
+    padding-left: 575px;
+    padding-top: 50px;
+    top: 150px;
+    color: gold;
+    text-shadow: 2px 2px 3px rgb(247, 5, 5);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+
+
+#link{
+    position: relative;
+    text-decoration: none;
+    color: gold;
+    top:10px;
+    left: 110px;
+}
+#link:hover{
+    color: lightblue;
+}

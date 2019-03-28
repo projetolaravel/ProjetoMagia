@@ -1,0 +1,48 @@
+body#telaHome{
+    background-image: url("../imagens/imgHome.jpg");
+    background-size: 100%;
+}
+
+nav#menu ul{
+    font-size: 25px;
+    list-style: none;
+    position: static;
+    top: 0px;
+    left: 600px;
+}
+
+nav#menu li{
+	display: inline-block;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 95px;
+	margin: 2px;
+}
+
+nav#menu a{
+    color:orange;   
+    text-decoration: none; 
+    text-shadow: 4px -4px 4px black;
+    
+}
+
+nav#menu a:hover{
+    color: white;
+	text-decoration: none;
+}
+
+nav#menu h1{
+    font-family: arial; 
+    text-shadow: 4px -4px 4px black;
+    color: orange;
+}
+
+ p{
+    font-size: 25px;
+    font-family: arial; 
+    text-shadow: 4px -4px 8px black;
+    color: rgb(66, 191, 230);
+    padding-top: 50px;
+    text-indent: 30px;
+    white-space: pre-wrap;
+}
