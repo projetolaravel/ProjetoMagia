@@ -20,17 +20,11 @@ Route::get('/cadastro-sala', function(){
     return view('telaCadastroSala');
 });
 
-Route::get('/coordenador', function(){
-    return view('telaCoordenador');
-});
+Route::get('/coordenador', 'ControllerCoordenador@Coordenador');
 
-Route::get('/login-coordenador', function(){
-    return view('telaLoginCoordenador');
-});
+Route::get('/login-coordenador', 'ControllerLoginCoordenador@LogCoordenador');
 
-Route::get('/home', function(){
-    return view('telaHome');
-});
+Route::get('/home', 'ControllerHome@Home');
 
 Route::get('/login-ministra', function(){
     return view('telaLoginMinistra');

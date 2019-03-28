@@ -33,7 +33,7 @@
                     <label for="rub">RUB</label>
                     <input class="form-control" type="text" id="rub" size=30>
                     <label for="foto">Foto: </label>
-                    <input class = "espaco" type="file" id="foto"  size=30>
+                    <input class = "form-control-file" type="file" id="foto"  size=30>
                     <button id="botao" class="btn btn-outline-light" type="submit">Cadastrar</button>  
                 </div>
             </form>
