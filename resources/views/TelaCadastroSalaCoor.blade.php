@@ -15,15 +15,14 @@
 <h1 class="mensagem">Cadastro de Sala</h1></center> 
  
     <div class="col-md-4">
-        <form>
+        <form action="{{route('salaC.store')}}" method="POST">
+            @csrf 
             <div class="campos">
                 <label for="nome">Nome da sala</label>
-                <input class="form-control" type="text" id="nome" size=30>
-                <label for="coordenador">Coordenador responsável</label>
-                <input class="form-control" type="text" id="cordenador" size=30> 
-                <label for="departamento">Departamento</label>
-                <input class="form-control" type="text" id="salafuncionamento" size=30>  
-                <button id="botao" type="button" class="btn btn-outline-light">Cadastrar</button>  
+                <input class="form-control" type="text" id="nome" name="nomeSala" size=30>
+                <label for="departamento">Id do Departamento</label>
+                <input class="form-control" type="text" id="sala" name="nomeId" size=30>  
+                <button id="botao" type="submit" class="btn btn-outline-light">Cadastrar</button>  
             </div>
         </form>
     <div>

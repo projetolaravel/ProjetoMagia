@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ControllerMinistra extends Controller
 {
     Public function Ministra(){
-        return view('TelaMinistra');
+        return view('telaMinistra');
     }
 }

@@ -15,11 +15,14 @@
         <h1>Bem-vinda de volta, ministra!</h1>
         <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="cadastro-funcionario">Cadastrar Funcionário</a></li>
-            <li><a href="cadastro-sala">Cadastrar Sala</a></li>
-            <li><a href="cadastro-departamento">Cadastrar Departamento</a></li>
-            <li><a href="cadastro-coordenador">Cadastrar Coordenador</a></li>
-            <li><a href="gerenciar-membros">Gerenciar Membros</a></li>
+            <li><a href="{{route('salaM.create')}}">Cadastrar Sala</a></li>
+            <li><a href="{{route('salaM.index')}}">Gerenciar Sala</a></li>
+            <li><a href="{{route('departamento.create')}}">Cadastrar Departamento</a></li>
+            <li><a href="{{route('departamento.index')}}">Gerenciar Departamento</a></li>
+            <li><a href="{{route('coordenadores.create')}}">Cadastrar Coordenador</a></li>
+            <li><a href="{{route('coordenadores.index')}}">Gerenciar Coordenadores</a></li>
+            <li><a href="{{route('funcionariosM.index')}}">Gerenciar Funcionarios</a></li>
+            <li><a href="{{route('funcionariosM.create')}}">Cadastrar Funcionário</a></li>
         </ul>
         </center>   
     </nav>

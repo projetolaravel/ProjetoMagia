@@ -15,8 +15,10 @@
         <h1>Hello, wizard!</h1>
         <ul>
             <li><a href="home">Home</a></li>
-            <li><a href="cadastro-funcionario">Cadastrar Funcionário</a></li>
-            <li><a href="cadastro-sala">Cadastrar Sala</a></li>
+            <li><a href="{{route('funcionariosC.create')}}">Cadastrar Funcionário</a></li>
+            <li><a href="{{route('funcionariosC.index')}}">Gerenciar Funcionarios</a></li>
+            <li><a href="{{route('salaC.create')}}">Cadastrar Sala</a></li>
+            <li><a href="{{route('salaC.index')}}">Gerenciar Sala</a></li>
         </ul>
         </center>
     </nav>

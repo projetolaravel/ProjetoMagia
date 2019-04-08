@@ -13,19 +13,14 @@
 <body id="departamento">
     <p>Cadastrar Departamento</p>
         <div class = "col-md-4">
-            <form>
-             
+            <form action="{{route('departamento.store')}}" method="POST">
+             @csrf
                 <div id="campos">
                     <label for="nome">Nome do Departamento</label>
-                    <input class="form-control" type="text" id="nome" size=30 >
-                    <label for="coordenador">Coordenador Responsável</label>
-                    <input  class="form-control" type="text" id="cordenador" size=30>
-                    <label for="sala">Sala de Funcionamento</label>
-                    <input  class="form-control" type="text" id="sala" size=30>
-                    <button id="botao" class="btn btn-outline-light" type="button">Cadastrar</button>
+                    <input class="form-control" type="text" id="nome" name="nomeDepartamento" size=30 >
+                    <button id="botao" class="btn btn-outline-light" type="submit">Cadastrar</button>
                 </div>
             </form>
         </div>
-    <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
 </body>
 </html>
